@@ -72,5 +72,9 @@ foreach($times["baianos"] as $indice => $valor) {
     echo $indice.":".$valor."<br>";
 }
 
+echo "<hr>";
+
+$cidades = array("Imbituba", "Garopaba", "Paulo Lopes");
+    echo in_array("Imbituba", $cidades);
 
 ?>
